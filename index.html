@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>EDA BeatCamp</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="container">
+
+
+        <div class="base">
+
+            <h1>
+                EDA BeatCamp
+            </h1>
+
+                <ul class="buttons">
+                    <li class="type">Loops</li>
+                    <li class="loop">L1</li>
+                    <li class="loop">L2</li>
+                    <li class="loop">L3</li>
+                </ul>
+                    
+                <ul class="buttons">
+                    <li class="type">Snares</li>
+                    <li class="snare" onclick="document.getElementById('s1').play()">S1</li>
+                    <li class="snare" onclick="document.getElementById('s2').play()">S2</li>
+                    <li class="snare" onclick="document.getElementById('s3').play()">S3</li>
+                </ul>
+                    
+                <ul class="buttons">
+                    <li class="type">Hi Hats</li>
+                    <li class="hat" onclick="document.getElementById('h1').play()">H1</li>
+                    <li class="hat" onclick="document.getElementById('h2').play()">H2</li>
+                    <li class="hat" onclick="document.getElementById('h3').play()">H3</li>
+                </ul>
+                    
+                <ul class="buttons">
+                    <li class="type">Kicks</li>
+                    <li class="kick" onclick="document.getElementById('k1').play()">K1</li>
+                    <li class="kick" onclick="document.getElementById('k2').play()">K2</li>
+                    <li class="kick" onclick="document.getElementById('k3').play()">K3</li>
+                    </ul>
+            
+        </div>
+    </div>
+    <audio id="l1" src="samples/loop1.mp3"></audio>
+    <audio id="l2" src="samples/loop2.mp3"></audio>
+    <audio id="l3" src="samples/loop3.mp3"></audio>
+
+    <audio id="s1" src="samples/snare1.mp3"></audio>
+    <audio id="s2" src="samples/snare2.mp3"></audio>
+    <audio id="s3" src="samples/snare3.mp3"></audio>
+
+    <audio id="h1" src="samples/hat1.mp3"></audio>
+    <audio id="h2" src="samples/hat2.mp3"></audio>
+    <audio id="h3" src="samples/hat3.mp3"></audio>
+
+    <audio id="k1" src="samples/kick1.mp3"></audio>
+    <audio id="k2" src="samples/kick2.mp3"></audio>
+    <audio id="k3" src="samples/kick3.mp3"></audio>
+</body>
+</html>

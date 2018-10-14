@@ -1,0 +1,62 @@
+* {
+    background: rgb(41, 41, 41);
+}
+.container {
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    padding: 20px;	
+    font-size: 30px;
+    font-family: 'Roboto', sans-serif;
+    color: gainsboro;
+}
+
+.base {
+    display: inline-block;
+    margin: auto;
+ }
+ 
+.buttons li {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    padding: 20px;	
+    font-size: 20px;
+    line-height: 100px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+ }
+
+.type {
+    color: gainsboro;
+}
+ 
+.loop {
+    background-color:aqua;
+    color: rgb(90, 90, 90);
+    border: 1px solid;
+}
+
+.snare {
+    background-color:greenyellow;
+    color: rgb(90, 90, 90);
+    border: 1px solid;
+}
+
+.hat {
+    background-color:orchid;
+    color: rgb(90, 90, 90);
+    border: 1px solid;
+}
+
+.kick {
+    background-color:peru;
+    color: rgb(90, 90, 90);
+    border: 1px solid;
+}
